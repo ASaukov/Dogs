@@ -1,0 +1,47 @@
+body {
+    font-family: Arial,  sans-serif; /* Семейство шрифтов */
+    font-size: 11px; /* Размер основного шрифта в <p></p>  */
+    background-color: Black	; /* Цвет фона веб-страницы */
+    color: Seashell; /* Цвет основного текста */ 
+}
+h1 {
+    color: DodgerBlue; /* Цвет заголовка */
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: Georgia, serif; /* Семейство шрифтов */
+}
+
+@keyframes color-change {
+    0% {
+      color: HotPink;
+    }
+  
+    50% {
+      color: Fuchsia;
+    }
+  
+    50% {
+      color: BlueViolet;
+    }
+    100% {
+      color: MediumSlateBlue;
+    }
+    100% {
+      color: BlueViolet;
+      }
+    100% {
+      color: Fuchsia;
+    }
+    100% {
+      color: HotPink;
+    }
+
+    
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
+
+h2 {
+    color: HotPink;
+}
